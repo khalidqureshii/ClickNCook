@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Kung Pao Tofu">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="61.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="For the Tofu:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="206.0" prefHeight="31.0" prefWidth="279.0" text="- 14 oz (400g) firm tofu, cubed">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="248.0" prefHeight="31.0" prefWidth="279.0" text="- 1 tablespoon soy sauce">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="168.0" prefHeight="84.0" prefWidth="480.0" text="1. Gently press the tofu between paper towels or a clean kitchen towel to remove excess moisture. Cut it into cubes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="248.0" prefHeight="54.0" prefWidth="575.0" text="2. In a bowl, combine the 1 tablespoon of soy sauce and 1 tablespoon of cornstarch. Toss the tofu cubes in this mixture to coat them." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="303.0" prefHeight="99.0" prefWidth="538.0" text="3. Heat 2 tablespoons of vegetable oil in a large skillet or wok over medium-high heat. Add the tofu cubes and fry until they turn golden and crispy on all sides, about 5-7 minutes. Remove the tofu from the skillet and set it aside." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="402.0" prefHeight="99.0" prefWidth="546.0" text="4. In a small bowl, whisk together 2 tablespoons of soy sauce, 2 tablespoons of rice vinegar, 2 tablespoons of hoisin sauce, 1 tablespoon of sugar, 1/2 cup of vegetable broth (or water), and 1 tablespoon of cornstarch. Set the sauce aside." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="505.0" prefHeight="74.0" prefWidth="486.0" text="5. In the same skillet, add 2 tablespoons of vegetable oil. Add minced garlic, ginger, and dried red chili peppers. Stir-fry for about 30 seconds until fragrant." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToChinese" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="77.0" layoutY="279.0" prefHeight="31.0" prefWidth="279.0" text="- 1 tablespoon cornstarch">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="310.0" prefHeight="31.0" prefWidth="327.0" text="- 2 tablespoons vegetable oil for frying">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="61.0" layoutY="345.0" prefHeight="31.0" prefWidth="279.0" text="For the Kung Pao Sauce:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="371.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons soy sauce">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="402.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons rice vinegar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="433.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons hoisin sauce">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="61.0" layoutY="467.0" prefHeight="31.0" prefWidth="279.0" text="For the Stir-Fry:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="579.0" prefHeight="126.0" prefWidth="563.0" text="6. Add the diced red and green bell peppers to the skillet. Stir-fry for a few minutes until the peppers start to soften. Return the fried tofu to the skillet. Pour in the Kung Pao sauce. Stir everything together and allow the sauce to thicken, which should take about 2-3 minutes. Stir in the unsalted peanuts and sliced green onions. " wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="489.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons vegetable oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="526.0" prefHeight="31.0" prefWidth="279.0" text="- 2 cloves garlic, minced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="557.0" prefHeight="31.0" prefWidth="301.0" text="- 1 tablespoon fresh ginger, minced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="588.0" prefHeight="53.0" prefWidth="347.0" text="- 4-5 dried red chili peppers (adjust to your desired level of spiciness)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="77.0" layoutY="641.0" prefHeight="48.0" prefWidth="327.0" text="- 2 green onions, sliced (green and white parts)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

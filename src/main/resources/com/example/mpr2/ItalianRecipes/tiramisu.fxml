@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutX="-52.0" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Tiramisu">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToItalian" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label fx:id="s" layoutX="128.0" layoutY="107.0" prefHeight="37.0" prefWidth="158.0" text="Ingredients">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="544.0" layoutY="155.0" prefHeight="53.0" prefWidth="474.0" text="1. In a shallow dish, combine the brewed coffee and coffee liqueur (if using)." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="546.0" layoutY="200.0" prefHeight="61.0" prefWidth="457.0" text="2. In a separate bowl, beat the egg yolks and sugar together until they become pale and creamy." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="546.0" layoutY="243.0" prefHeight="81.0" prefWidth="457.0" text="3. Add the mascarpone cheese to the egg mixture and mix until smooth." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="543.0" layoutY="289.0" prefHeight="81.0" prefWidth="464.0" text=" 4. In another bowl, whip the heavy cream and vanilla extract until stiff peaks form." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="543.0" layoutY="350.0" prefHeight="61.0" prefWidth="490.0" text="5. Gently fold the whipped cream into the mascarpone mixture until well combined." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="69.0" layoutY="163.0" prefHeight="53.0" prefWidth="340.0" text="-1 cup (240ml) strong brewed coffee, cooled" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="208.0" prefHeight="53.0" prefWidth="371.0" text="-3 tablespoons coffee liqueur (e.g., Kahlúa) (optional)" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="268.0" prefHeight="35.0" prefWidth="280.0" text="-3 large egg yolks">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="294.0" prefHeight="48.0" prefWidth="280.0" text="-1/2 cup (100g) granulated sugar">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="64.0" layoutY="339.0" prefHeight="42.0" prefWidth="340.0" text=" -8 oz (about 227g) mascarpone cheese">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="381.0" prefHeight="35.0" prefWidth="253.0" text="-1 cup (240ml) heavy cream">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="418.0" prefHeight="42.0" prefWidth="293.0" text="-1 teaspoon pure vanilla extract">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="460.0" prefHeight="53.0" prefWidth="274.0" text="- Unsweetened cocoa powder, for dusting" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="513.0" prefHeight="42.0" prefWidth="293.0" text="-Ladyfingers (savoiardi)">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="548.0" layoutY="519.0" prefHeight="61.0" prefWidth="490.0" text="8. Add another layer of dipped ladyfingers on top, followed by the remaining mascarpone mixture." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="546.0" layoutY="474.0" prefHeight="61.0" prefWidth="490.0" text="7. Spread half of the mascarpone mixture over the ladyfingers." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="544.0" layoutY="406.0" prefHeight="81.0" prefWidth="490.0" text="6. Quickly dip each ladyfinger into the coffee mixture, making sure not to soak them too long. Arrange a layer of dipped ladyfingers in the bottom of a serving dish." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="547.0" layoutY="620.0" prefHeight="94.0" prefWidth="490.0" text="10. Before serving, dust the top with unsweetened cocoa powder and garnish with dark chocolate shavings if desired." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="547.0" layoutY="569.0" prefHeight="61.0" prefWidth="490.0" text="9. Cover the dish and refrigerate for at least 4 hours, or overnight for best results." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

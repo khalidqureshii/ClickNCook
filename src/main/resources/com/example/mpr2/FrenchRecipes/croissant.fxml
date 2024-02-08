@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Croissant">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="92.0" layoutY="158.0" prefHeight="38.0" prefWidth="279.0" text="For the Dough:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="98.0" layoutY="181.0" prefHeight="48.0" prefWidth="279.0" text="- Flour, sugar, salt, yeast">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="98.0" layoutY="229.0" prefHeight="38.0" prefWidth="279.0" text="- Water and milk">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="470.0" layoutY="162.0" prefHeight="31.0" prefWidth="565.0" text="Dough Preparation (Day 1):" wrapText="true">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="179.0" prefHeight="73.0" prefWidth="565.0" text="1. Mix dry dough ingredients in a stand mixer and add water and milk, knead to form smooth dough." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="238.0" prefHeight="38.0" prefWidth="588.0" text="2. Rest dough for 10 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="278.0" prefHeight="48.0" prefWidth="554.0" text="3. Add butter, knead until smooth. Form into a ball. Chill dough for 4-12 hours in the fridge." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToFrench" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="98.0" layoutY="277.0" prefHeight="31.0" prefWidth="279.0" text="- Butter">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="476.0" layoutY="425.0" prefHeight="31.0" prefWidth="554.0" text="6. Slice rectangles into triangles." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="483.0" prefHeight="38.0" prefWidth="554.0" text="7. Slice rectangles into triangles." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="98.0" layoutY="318.0" prefHeight="73.0" prefWidth="205.0" text="- Egg yolk (optional) and heavy cream" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="470.0" layoutY="334.0" prefHeight="31.0" prefWidth="565.0" text="Butter Block (Day 1):" wrapText="true">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="359.0" prefHeight="38.0" prefWidth="588.0" text="4. Flatten butter between parchment paper into a square. Chill." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="388.0" prefHeight="38.0" prefWidth="588.0" text="5. Flatten and fold the dough to create layers." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="470.0" layoutY="456.0" prefHeight="31.0" prefWidth="565.0" text="Croissant Shaping (Day 2):" wrapText="true">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="470.0" layoutY="521.0" prefHeight="31.0" prefWidth="565.0" text="Proofing (Day 2):" wrapText="true">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="476.0" layoutY="544.0" prefHeight="38.0" prefWidth="554.0" text="8. Let croissants proof in a cool, humid oven (2-2.5 hours)." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="470.0" layoutY="582.0" prefHeight="31.0" prefWidth="565.0" text="Baking (Day 2):" wrapText="true">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="605.0" prefHeight="38.0" prefWidth="554.0" text="9. Preheat oven to 375°F (190°C)." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

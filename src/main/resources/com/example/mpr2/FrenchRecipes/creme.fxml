@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Crème Brûlée">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="540.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="300.0" text="- 2 cups (480ml) heavy cream">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="206.0" prefHeight="66.0" prefWidth="273.0" text="- 1 vanilla bean or 1 tablespoon of pure vanilla extract" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="265.0" prefHeight="31.0" prefWidth="279.0" text="- 5 large egg yolks">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="415.0" layoutY="136.0" prefHeight="38.0" prefWidth="504.0" text="1. Preheat your oven to 325°F (160°C)." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="414.0" layoutY="157.0" prefHeight="104.0" prefWidth="642.0" text="2. If using a vanilla bean, slice it lengthwise, scrape out the seeds, and add both the seeds and the bean to a saucepan with the cream. Heat the cream until it's scalding. If using vanilla extract, just add it to the cream." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="413.0" layoutY="246.0" prefHeight="53.0" prefWidth="660.0" text="3. In a separate bowl, whisk the egg yolks and sugar together until well combined." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="413.0" layoutY="288.0" prefHeight="73.0" prefWidth="660.0" text="4. Slowly pour the hot cream over the egg yolk mixture while continuously whisking. Remove the vanilla bean if you used one." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="413.0" layoutY="348.0" prefHeight="66.0" prefWidth="660.0" text="5. Pour the mixture through a fine-mesh sieve into a large measuring cup or bowl to remove any clumps or the vanilla bean remnants." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToFrench" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="298.0" prefHeight="31.0" prefWidth="293.0" text="- 1/2 cup (100g) granulated sugar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="331.0" prefHeight="66.0" prefWidth="279.0" text="- Extra granulated sugar (for caramelizing)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="414.0" layoutY="396.0" prefHeight="54.0" prefWidth="649.0" text="6. Place your ramekins (custard dishes) in a deep baking dish. " wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="416.0" layoutY="435.0" prefHeight="53.0" prefWidth="649.0" text="7. Carefully pour the custard mixture into the ramekins, dividing it equally." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="416.0" layoutY="472.0" prefHeight="73.0" prefWidth="649.0" text="8. Fill the baking dish with hot water so that it comes about halfway up the sides of the ramekins. " wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="416.0" layoutY="539.0" prefHeight="96.0" prefWidth="649.0" text="9. Place the baking dish in the preheated oven and bake for about 30-40 minutes. The custards are done when they are set but still slightly jiggly in the center. The exact baking time may vary based on your oven and the size of your ramekins." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="415.0" layoutY="631.0" prefHeight="85.0" prefWidth="649.0" text="10. Remove the ramekins from the water bath and let them cool to room temperature. Then, cover with plastic wrap and refrigerate for at least 2-3 hours or overnight." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

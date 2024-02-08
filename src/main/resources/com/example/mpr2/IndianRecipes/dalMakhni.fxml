@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Dal Makhani">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="37.0" prefWidth="251.0" text="- 1 cup lentils">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="206.0" prefHeight="31.0" prefWidth="251.0" text="- 5 cups water">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="238.0" prefHeight="38.0" prefWidth="260.0" text="- 2 tablespoons vegetable oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="275.0" prefHeight="38.0" prefWidth="251.0" text="- 1 tablespoon cumin seeds">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="442.0" layoutY="161.0" prefHeight="99.0" prefWidth="628.0" text="1. Place lentils and kidney beans in a large bowl; cover with plenty of water. Soak for at least 2 hours or overnight. Drain.Place lentils and kidney beans in a large bowl; cover with plenty of water. Soak for at least 2 hours or overnight. Drain." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="442.0" layoutY="269.0" prefHeight="105.0" prefWidth="635.0" text="2. Cook lentils, kidney beans, 5 cups of water, and salt in a pot over medium heat until tender, stirring occasionally, about 1 hour. Remove from heat and set aside. Keep the lentils, kidney beans, and any excess cooking water in the pot." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="444.0" layoutY="377.0" prefHeight="134.0" prefWidth="618.0" text="3. Heat vegetable oil in a saucepan over medium-high heat. Cook cumin seeds in the hot oil until they begin to pop, 1 to 2 minutes. Add cardamom pods, cinnamon stick, bay leaves, and cloves; cook until bay leaves turn brown, about 1 minute. Reduce heat to medium-low; add ginger paste, garlic paste, turmeric, and cayenne pepper. Stir to coat." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="444.0" layoutY="490.0" prefHeight="233.0" prefWidth="618.0" text="4. Stir tomato puree into the spice mixture; cook over medium heat until slightly reduced, about 5 minutes. Add chili powder, coriander, and butter; cook and stir until butter is melted. Stir lentils, kidney beans, and any leftover cooking water into the tomato mixture; bring to a boil, reduce heat to low. Stir fenugreek into the lentil mixture. Cover the saucepan and simmer until heated through, stirring occasionally, about 45 minutes. Add cream and cook until heated through, 2 to 4 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="310.0" prefHeight="38.0" prefWidth="260.0" text="- 4 cardamom pods">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="348.0" prefHeight="38.0" prefWidth="260.0" text="- 4 bay leaves, 6 whole cloves">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="384.0" prefHeight="38.0" prefWidth="260.0" text="- 1 ½ tablespoons ginger paste">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="420.0" prefHeight="38.0" prefWidth="260.0" text="- 1 ½ tablespoons garlic paste">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="458.0" prefHeight="38.0" prefWidth="260.0" text="- 1 tomato, diced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="494.0" prefHeight="38.0" prefWidth="260.0" text="- ½ teaspoon ground turmeric">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="529.0" prefHeight="65.0" prefWidth="260.0" text="- 1 pinch cayenne pepper, or more to taste" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="593.0" prefHeight="59.0" prefWidth="296.0" text="- 1 cup canned tomato puree, or more to taste" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="646.0" prefHeight="38.0" prefWidth="296.0" text="- 2 tablespoons ground coriander">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToIndian" prefHeight="53.0" prefWidth="104.0" text="Back">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

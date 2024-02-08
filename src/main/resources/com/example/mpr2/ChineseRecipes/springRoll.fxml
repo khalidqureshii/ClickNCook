@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Vegetable Spring Rolls">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="84.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="For the Spring Rolls:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="206.0" prefHeight="31.0" prefWidth="332.0" text="- 8-10 spring roll wrappers (rice paper)">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="237.0" prefHeight="48.0" prefWidth="354.0" text="- 2 cups vermicelli rice noodles, cooked and cooled" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="168.0" prefHeight="101.0" prefWidth="565.0" text="1. Cook the vermicelli rice noodles according to the package instructions, then drain, rinse with cold water, and set aside to cool. Slice all the vegetables and herbs into thin strips or leaves for easy rolling." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="260.0" prefHeight="101.0" prefWidth="565.0" text="2. Fill a shallow dish with warm water. Working with one rice paper wrapper at a time, dip it into the water for about 10-15 seconds until it softens but is still slightly firm. Do not over-soak, as it will continue to soften as you assemble the spring roll." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="348.0" prefHeight="107.0" prefWidth="565.0" text="3. Place the softened rice paper wrapper on a clean surface. In the center of the wrapper, place a few pieces of each ingredient: vermicelli noodles, lettuce, cucumbers, carrots, bean sprouts, and a few leaves of each fresh herb (mint, cilantro, and basil)." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="482.0" layoutY="448.0" prefHeight="83.0" prefWidth="555.0" text="4. Carefully fold the sides of the wrapper over the filling, then roll it up tightly from the bottom, similar to rolling a burrito or a sushi roll. Roll tightly to keep everything together." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="482.0" layoutY="519.0" prefHeight="74.0" prefWidth="565.0" text="5. You can serve the vegetable spring rolls immediately, or you can cover them with a damp kitchen towel or plastic wrap to keep them from drying out if you're not serving them right away." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToChinese" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="279.0" prefHeight="31.0" prefWidth="279.0" text="- 1 cup lettuce leaves">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="306.0" prefHeight="31.0" prefWidth="279.0" text="- 1 cup grated carrots">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="84.0" layoutY="336.0" prefHeight="31.0" prefWidth="279.0" text="For the Dipping Sauce:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="370.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup soy sauce">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="401.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons rice vinegar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="432.0" prefHeight="31.0" prefWidth="279.0" text="- 1 tablespoon honey or sugar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="463.0" prefHeight="31.0" prefWidth="304.0" text="- 1/2 teaspoon fresh ginger, grated">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="482.0" layoutY="586.0" prefHeight="122.0" prefWidth="587.0" text="6. In a small bowl, whisk together soy sauce, rice vinegar, honey (or sugar), minced garlic, grated ginger, and red pepper flakes. You can also add a spoonful of peanut butter or hoisin sauce to the dipping sauce for added flavor. Serve the vegetable spring rolls with the dipping sauce, and enjoy your delicious and healthy appetizer!" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

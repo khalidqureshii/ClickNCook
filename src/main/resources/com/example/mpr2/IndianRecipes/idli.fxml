@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+   <children>
+      <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Soft Idli">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="168.0" prefHeight="55.0" prefWidth="279.0" text="- 1 cup Urad dal (black gram)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="223.0" prefHeight="55.0" prefWidth="279.0" text="- 2 cups Idli rice">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="278.0" prefHeight="55.0" prefWidth="279.0" text="- 1/4 teaspoon Fenugreek seeds">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="330.0" prefHeight="55.0" prefWidth="279.0" text="- Salt to taste">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="171.0" prefHeight="48.0" prefWidth="530.0" text="1. Soak 1 cup of urad dal and 2 cups of idli rice separately.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="222.0" prefHeight="55.0" prefWidth="550.0" text="2. Grind the soaked urad dal and idli rice into a smooth batter.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="277.0" prefHeight="55.0" prefWidth="279.0" text="3. Mix the two batters together.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="329.0" prefHeight="55.0" prefWidth="542.0" text="4. Allow the batter to ferment for around 8 hours or overnight.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="384.0" prefHeight="55.0" prefWidth="530.0" text="5. Add salt to the fermented batter (to taste) and stir gently.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="439.0" prefHeight="55.0" prefWidth="279.0" text="6. Pour the batter into greased idli molds.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="494.0" prefHeight="55.0" prefWidth="550.0" text="7. Steam the idlis for about 10-12 minutes or until fully cooked.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="549.0" prefHeight="55.0" prefWidth="514.0" text="8. Serve with coconut chutney and sambar.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToIndian" prefHeight="53.0" prefWidth="104.0" text="Back">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

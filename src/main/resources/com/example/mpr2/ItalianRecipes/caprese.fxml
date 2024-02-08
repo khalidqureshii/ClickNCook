@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutX="-52.0" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Caprese Salad">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToItalian" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label fx:id="s" layoutX="128.0" layoutY="107.0" prefHeight="37.0" prefWidth="213.0" text="Ingredients">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="536.0" layoutY="174.0" prefHeight="61.0" prefWidth="499.0" text="1. Slice the tomatoes and fresh mozzarella cheese into even, thick slices." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="536.0" layoutY="238.0" prefHeight="61.0" prefWidth="490.0" text="2. Arrange the tomato and mozzarella slices on a serving platter, alternating them and slightly overlapping." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="536.0" layoutY="287.0" prefHeight="81.0" prefWidth="457.0" text="3. Tuck fresh basil leaves between the tomato and mozzarella slices." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="538.0" layoutY="337.0" prefHeight="81.0" prefWidth="464.0" text="4. Drizzle extra-virgin olive oil over the salad." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="539.0" layoutY="403.0" prefHeight="61.0" prefWidth="490.0" text="5. Optionally, drizzle a small amount of balsamic vinegar for added flavor." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="69.0" layoutY="163.0" prefHeight="53.0" prefWidth="340.0" text="-4 ripe tomatoes" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="208.0" prefHeight="53.0" prefWidth="371.0" text="-8 oz (about 225g) fresh mozzarella cheese" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="261.0" prefHeight="35.0" prefWidth="280.0" text="-Extra-virgin olive oil">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="294.0" prefHeight="48.0" prefWidth="280.0" text="-Fresh basil leaves">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="64.0" layoutY="339.0" prefHeight="42.0" prefWidth="354.0" text=" -8 oz (about 227g) mascarpone cheese">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="381.0" prefHeight="35.0" prefWidth="340.0" text="- Salt and freshly ground black pepper" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="418.0" prefHeight="42.0" prefWidth="293.0" text="-Balsamic vinegar (optional)">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="460.0" prefHeight="53.0" prefWidth="261.0" text="- Unsweetened cocoa powder, for dusting" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="513.0" prefHeight="42.0" prefWidth="293.0" text="-Ladyfingers (savoiardi)">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="539.0" layoutY="513.0" prefHeight="61.0" prefWidth="490.0" text="7. Serve your traditional Italian Caprese salad immediately for a fresh and simple appetizer or side dish." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="539.0" layoutY="452.0" prefHeight="61.0" prefWidth="490.0" text="6. Season with salt and freshly ground black pepper to taste." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

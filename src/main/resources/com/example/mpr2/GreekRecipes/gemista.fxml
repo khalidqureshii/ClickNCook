@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Gemista">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="164.0" prefHeight="38.0" prefWidth="279.0" text="- 4-6 medium-sized tomatoes" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="199.0" prefHeight="53.0" prefWidth="293.0" text="- 4-6 green bell pepperstoes, peeled and sliced" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="244.0" prefHeight="31.0" prefWidth="279.0" text="- 1 cup long-grain rice">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="159.0" prefHeight="54.0" prefWidth="480.0" text="1. Preheat your oven to 375°F (190°C)." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="202.0" prefHeight="74.0" prefWidth="480.0" text="2. Cut the tops off the tomatoes and green bell peppers, and scoop out the insides to create &quot;shells.&quot;" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="269.0" prefHeight="54.0" prefWidth="561.0" text="3. In a bowl, combine the rice, chopped onion, minced garlic, parsley, dill, and half of the olive oil. Season with salt and pepper." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="331.0" prefHeight="74.0" prefWidth="554.0" text="4. Stuff the tomatoes and green bell peppers with the rice mixture, leaving a little space at the top for the rice to expand." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="406.0" prefHeight="54.0" prefWidth="486.0" text="5. Place the stuffed vegetables in a baking dish. Drizzle the remaining olive oil over the top." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToGreek" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="275.0" prefHeight="31.0" prefWidth="293.0" text="- 1 small red onion, finely chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="306.0" prefHeight="31.0" prefWidth="279.0" text="- 2-3 cloves garlic, minced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="337.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup fresh parsley, chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="370.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup fresh dill, chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="468.0" prefHeight="74.0" prefWidth="486.0" text="6. Pour 1 cup of water into the baking dish around the stuffed vegetables. Cover the dish with aluminum foil and bake for about 45 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="401.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup extra-virgin olive oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="432.0" prefHeight="31.0" prefWidth="279.0" text="- Salt and pepper to taste">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="548.0" prefHeight="102.0" prefWidth="486.0" text="7. Remove the foil and bake for an additional 20-30 minutes until the rice is cooked and the vegetables are tender. Serve your traditional Greek Gemista as a satisfying and flavorful dish." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

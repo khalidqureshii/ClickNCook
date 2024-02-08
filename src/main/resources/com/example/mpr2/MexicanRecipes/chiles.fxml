@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Chiles Rellenos">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="84.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="79.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="137.0" prefHeight="38.0" prefWidth="279.0" text="For the Filling:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="182.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 cup corn kernels ">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="213.0" prefHeight="31.0" prefWidth="308.0" text="- 1/4 cup diced onion, 2 cloves garlic">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="446.0" layoutY="130.0" prefHeight="107.0" prefWidth="630.0" text="1. Roast the poblano peppers over an open flame or in a broiler until the skin is charred and blistered. Place them in a plastic bag or a covered bowl for 15 minutes to steam. Peel off the charred skin, cut a small slit lengthwise, and carefully remove the seeds, leaving the stem intact." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="447.0" layoutY="230.0" prefHeight="92.0" prefWidth="630.0" text="2. Heat the vegetable oil in a skillet over medium heat. Add onions and garlic and sauté until softened. Add corn kernels and cook for a few more minutes. Remove from heat, then mix in the shredded cheese. " wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="446.0" layoutY="320.0" prefHeight="48.0" prefWidth="630.0" text="3. Stuff each poblano pepper with the cheese and corn mixture, then close the pepper by folding it over." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="447.0" layoutY="371.0" prefHeight="74.0" prefWidth="630.0" text="4. In a large bowl, beat the egg whites until they form stiff peaks.  In a separate bowl, whisk the egg yolks with salt and pepper. Gently fold the egg yolk mixture into the beaten egg whites until combined." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="447.0" layoutY="437.0" prefHeight="116.0" prefWidth="630.0" text="5. Combine roasted tomatoes, chopped onion, garlic, oregano, salt, and pepper in a blender. Blend until smooth and transfer to a saucepan. Heat the sauce over medium heat, and when it starts to simmer, add chicken or vegetable broth. Keep warm." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="446.0" layoutY="541.0" prefHeight="74.0" prefWidth="630.0" text="6. Heat enough vegetable oil in a large skillet to reach about 1/2 inch depth. Dip each stuffed pepper into the egg batter to coat it and carefully place it in the hot oil." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="448.0" layoutY="607.0" prefHeight="55.0" prefWidth="630.0" text="7. Fry until the coating is golden brown, about 3-4 minutes per side. Remove and drain on paper towels. " wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="448.0" layoutY="655.0" prefHeight="55.0" prefWidth="630.0" text="8. Place a ladle of the tomato sauce on a plate. Carefully place a Chiles Rellenos on the sauce. Garnish with additional sauce and cheese, if desired." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToMexican" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="244.0" prefHeight="31.0" prefWidth="279.0" text="- 1 tablespoon vegetable oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="275.0" prefHeight="31.0" prefWidth="279.0" text="For the Egg Batter:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="306.0" prefHeight="31.0" prefWidth="279.0" text="- 4 large eggs, separated">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="339.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 teaspoon salt">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="370.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 teaspoon black pepper">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="401.0" prefHeight="31.0" prefWidth="279.0" text="For the Tomato Sauce:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="432.0" prefHeight="31.0" prefWidth="334.0" text="- 3 large tomatoes, roasted and peeled">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="463.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 small onion, chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="494.0" prefHeight="31.0" prefWidth="279.0" text="- 1 garlic clove">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="525.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 teaspoon dried oregano ">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="560.0" prefHeight="31.0" prefWidth="308.0" text="- 1/4 cup chicken or vegetable broth">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="591.0" prefHeight="31.0" prefWidth="279.0" text="For Frying:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="623.0" prefHeight="31.0" prefWidth="279.0" text="- Vegetable oil for frying">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,123 @@
+#backgroundPane {
+    -fx-background-color: #FFF2D5;
+}
+
+#signupPane {
+    -fx-background-color: #FFF2D5;
+}
+
+#loginButton {
+    -fx-background-color: #E4803E;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,  0.1, 2, 2);
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+     -fx-font-size: 1.7em;
+}
+
+
+#loginButton:hover {
+    -fx-background-color: #EFA97D;
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+     -fx-font-size: 1.7em;
+}
+
+#signupButton:hover {
+    -fx-background-color: #EFA97D;
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+     -fx-font-size: 1.7em;
+}
+
+
+#signupButton {
+    -fx-background-color: #E4803E;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,  0.1, 2, 2);
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+     -fx-font-size: 1.7em;
+}
+
+#selectorPane {
+    -fx-background-color: #FFF2D5;
+}
+
+#selectorLabel {
+    -fx-font-color: #FF6969;
+}
+
+#rSPane {
+    -fx-background-color: #FFF2D5;
+    -fx-background-image: url('Images/Misc/bg94warm.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+#backButton {
+    -fx-background-color: #E4803E;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,  0.1, 2, 2);
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+     -fx-font-size: 1.7em;
+}
+
+#backButton:hover {
+    -fx-background-color: #EFA97D;
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+     -fx-font-size: 1.7em;
+}
+
+
+#emailTextField {
+    -fx-background-radius: 11;
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 3,  0.1, 2, 2);
+}
+
+#passwordTextField {
+    -fx-background-radius: 11;
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 3,  0.1, 2, 2);
+}
+
+#passTextField {
+    -fx-background-radius: 11;
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 3,  0.1, 2, 2);
+}
+
+#repeatPassTextField {
+    -fx-background-radius: 11;
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 3,  0.1, 2, 2);
+     -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+}
+
+#loginButton:pressed {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,  0.4, -2, -2);
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+     -fx-font-size: 1.7em;
+}
+
+#signupButton:pressed {
+   -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,  0.4, -2, -2);
+   -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+    -fx-font-size: 1.7em;
+}
+
+#backButton:pressed {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,  0.4, -2, -2);
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+     -fx-font-size: 1.7em;
+}
+
+.label {
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+    -fx-font-size: 1.7em;
+}
+
+#t {
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+    -fx-font-size: 4.2em;
+   -fx-text-fill: #E0722A;
+}
+
+#s {
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+    -fx-font-size: 2.8em;
+    -fx-text-fill: #E0972A;
+}

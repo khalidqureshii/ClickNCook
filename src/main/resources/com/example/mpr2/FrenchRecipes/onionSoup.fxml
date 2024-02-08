@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="French Onion Soup">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="- Soy sauce">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="195.0" prefHeight="73.0" prefWidth="168.0" text="- Balsamic vinegar.  aromatic thyme" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="96.0" layoutY="333.0" prefHeight="38.0" prefWidth="279.0" text="- Garlic">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="257.0" prefHeight="38.0" prefWidth="279.0" text="- Baguette">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="162.0" prefHeight="151.0" prefWidth="565.0" text="1. Caramelize the onions. Caramelized onions are what give French onion soup its sweet, rich flavor, so cook the onions for longer than you think you need to, about 1 hour. They should be very soft and golden brown before you move on to the next step. For extra browning, I like to raise the heat from low to medium for the last 20 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="320.0" prefHeight="124.0" prefWidth="565.0" text="2. Simmer the soup. Add the vinegar, thyme, soy sauce, and garlic to the onions, and stir, scraping up any browned bits stuck to the bottom of the pot. Stir in a few tablespoons of flour, which will thicken the soup as it cooks. Finally, add the broth and simmer the soup, uncovered, for 30 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="451.0" prefHeight="131.0" prefWidth="588.0" text="3. Toast the bread. Top thin slices of baguette or French bread with grated cheese and bake them in a 450° oven until the baguette is toasted and the cheese is melted. For the best results, use a good melting cheese with a rich, nutty taste. I like Gruyere cheese or a combination of aged white cheddar and Parmesan." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="585.0" prefHeight="74.0" prefWidth="554.0" text="4. When the bread is ready, ladle the soup into bowls. Top each one with a toasted slice of bread and thyme sprigs, and enjoy!" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToFrench" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="96.0" layoutY="292.0" prefHeight="38.0" prefWidth="279.0" text="- Cheese">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="98.0" layoutY="317.0" prefHeight="38.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="375.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="403.0" prefHeight="38.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="442.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="470.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="501.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="533.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="564.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

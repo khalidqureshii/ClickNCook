@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Sesame Noodles">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="164.0" prefHeight="53.0" prefWidth="354.0" text="- 8 ounces (about 1/2 pound) of spaghetti or any other type of noodles" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="217.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons sesame oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="245.0" prefHeight="31.0" prefWidth="279.0" text="- 3 tablespoons soy sauce">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="473.0" layoutY="164.0" prefHeight="127.0" prefWidth="558.0" text="1. Bring a large pot of water to a boil. Cook the noodles according to the package instructions until they're al dente. Drain and rinse with cold water to stop the cooking process. Drizzle a bit of sesame oil over the noodles to prevent sticking and toss to coat. Set aside." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="474.0" layoutY="288.0" prefHeight="101.0" prefWidth="565.0" text="2. In a small bowl, whisk together the sesame oil, soy sauce, rice vinegar, honey (or brown sugar), minced garlic, grated ginger, and sriracha sauce or red pepper flakes. Adjust the sriracha sauce to your preferred level of spiciness." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="474.0" layoutY="384.0" prefHeight="80.0" prefWidth="573.0" text="3. Pour the sauce over the cooked and cooled noodles. Toss the noodles to coat them evenly with the sauce. If you prefer more sauce, you can make a double batch." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="478.0" layoutY="456.0" prefHeight="101.0" prefWidth="565.0" text="4. Once the noodles are well-coated with the sauce, cover the bowl and refrigerate the sesame noodles for about 30 minutes to allow the flavors to meld. You can also serve them at room temperature if you're in a hurry." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="478.0" layoutY="557.0" prefHeight="74.0" prefWidth="565.0" text="5. Just before serving, garnish the sesame noodles with thinly sliced green onions, toasted sesame seeds, and, if desired, chopped fresh cilantro or parsley for a burst of color and freshness." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToChinese" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="67.0" layoutY="276.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons rice vinegar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="307.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons honey or brown sugar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="338.0" prefHeight="31.0" prefWidth="279.0" text="- 2 cloves garlic, minced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="370.0" prefHeight="31.0" prefWidth="302.0" text="- 1 tablespoon fresh ginger, grated">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="391.0" prefHeight="65.0" prefWidth="375.0" text="- 1-2 teaspoons sriracha sauce or red pepper flakes (adjust to your spice preference)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="555.0" prefHeight="31.0" prefWidth="302.0" text="- 1/4 cup thinly sliced green onions">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="449.0" prefHeight="53.0" prefWidth="354.0" text="- 1 tablespoon sesame seeds (toasted for extra flavor)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="502.0" prefHeight="53.0" prefWidth="354.0" text="- Chopped fresh cilantro or parsley (optional, for garnish)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

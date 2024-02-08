@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutX="-52.0" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Rissoto">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToItalian" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label fx:id="s" layoutX="128.0" layoutY="107.0" prefHeight="37.0" prefWidth="199.0" text="Ingredients">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="544.0" layoutY="166.0" prefHeight="53.0" prefWidth="527.0" text="1. In a large pan, heat the olive oil and 1 tablespoon of butter. Sauté the chopped onion until it's translucent." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="544.0" layoutY="217.0" prefHeight="61.0" prefWidth="457.0" text="2. Add the Arborio rice and stir to coat with the oil and butter, toasting it for a minute or two." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="544.0" layoutY="262.0" prefHeight="81.0" prefWidth="457.0" text="3. Pour in the white wine and cook until it's mostly absorbed by the rice." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="546.0" layoutY="328.0" prefHeight="111.0" prefWidth="464.0" text="4. Begin adding the warm broth, one ladle at a time, stirring constantly and allowing it to be absorbed by the rice before adding more. Continue this process until the rice is creamy and al dente (about 18-20 minutes)." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="546.0" layoutY="439.0" prefHeight="61.0" prefWidth="490.0" text="5. Stir in the remaining butter and the grated Parmesan cheese. Season with salt and black pepper to taste." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="546.0" layoutY="497.0" prefHeight="53.0" prefWidth="490.0" text="6. Serve the creamy risotto immediately, garnished with extra Parmesan if desired." wrapText="true" />
+        <Label layoutX="69.0" layoutY="174.0" prefHeight="42.0" prefWidth="260.0" text="-1 1/2 cups Arborio rice">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="208.0" prefHeight="53.0" prefWidth="253.0" text="-4 cups chicken or vegetable broth (kept warm)" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="260.0" prefHeight="35.0" prefWidth="280.0" text="-1/2 cup dry white wine">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="285.0" prefHeight="48.0" prefWidth="280.0" text="-1 small onion, finely chopped">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="65.0" layoutY="318.0" prefHeight="42.0" prefWidth="267.0" text=" -2 tablespoons olive oil">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="65.0" layoutY="350.0" prefHeight="35.0" prefWidth="280.0" text=" -2 tablespoons unsalted butter">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="69.0" layoutY="378.0" prefHeight="42.0" prefWidth="293.0" text="-1/2 cup grated Parmesan cheese">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="412.0" prefHeight="35.0" prefWidth="274.0" text="-Salt and black pepper to taste">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

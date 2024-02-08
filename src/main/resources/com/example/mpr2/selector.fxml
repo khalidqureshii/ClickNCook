@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0"
+            xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.SelectorController">
+   <!-- Anchor Pane is a container used to add various elements-->
+   <!-- Controller Class is used to add functionality to it -->
+   <!-- xmlns is used to define the version of javafx -->
+   <!-- xmlns:fx is used to is used to signify that fx will be used to bind objects to ids by using fx:id-->
+   <!-- children element is used to signify the children inside of anchor pane container-->
+   <!-- Controller class is used to add functionality to our elements like button, imageview etc-->
+   <children>
+      <!-- Label can be used to display text-->
+      <Label fx:id="t" alignment="CENTER" layoutY="7.0" prefHeight="96.0" prefWidth="1080.0" text="PICK A CUISINE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <!-- ImageView is used to display image objects-->
+      <!-- Preserve Ratio maintains the aspect ratio of the image-->
+      <!-- Pick on Bounds determines if clicking on its invisible borders or padding will trigger events-->
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="285.0" layoutY="110.0" pickOnBounds="true"
+                 preserveRatio="true">
+
+         <!-- Image  Object is used to enter url of image to be used inside of imageview-->
+         <Image url="@Images/Cuisine/chinese.jpg"/>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="549.0" layoutY="110.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@Images/Cuisine/italian.jpg"/>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="814.0" layoutY="110.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@Images/Cuisine/japanese.jpg"/>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="17.0" layoutY="416.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@Images/Cuisine/mexican.jpg"/>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="284.0" layoutY="416.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@Images/Cuisine/french.jpg"/>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="548.0" layoutY="416.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@Images/Cuisine/greek.jpg"/>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="813.0" layoutY="416.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@Images/Cuisine/thai.jpg"/>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="17.0" layoutY="110.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@Images/Cuisine/indian.jpg"/>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="367.0" prefHeight="34.0" prefWidth="113.0" text="INDIAN" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="354.0" layoutY="367.0" prefHeight="34.0" prefWidth="113.0" text="CHINESE" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="617.0" layoutY="367.0" prefHeight="34.0" prefWidth="113.0" text="ITALIAN" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="86.0" layoutY="670.0" prefHeight="34.0" prefWidth="113.0" text="MEXICAN" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="354.0" layoutY="670.0" prefHeight="34.0" prefWidth="113.0" text="FRENCH" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="585.0" layoutY="670.0" prefHeight="35.0" prefWidth="178.0" text="GREEK" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="883.0" layoutY="367.0" prefHeight="34.0" prefWidth="113.0" text="JAPANESE" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="" alignment="CENTER" layoutX="883.0" layoutY="670.0" prefHeight="34.0" prefWidth="113.0" text="THAI" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+
+      <!-- On Action will trigger an event of the given name inside the controller class-->
+      <Button layoutX="17.0" layoutY="110.0" mnemonicParsing="false" onAction="#indianPressed" opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <!--Cursor will  change to hand when it hovers over the button-->
+      <!-- mnemonic Parsing enables you to press a key after _ character which will trigger the event
+      Example if the text was ba_ck then Alt + C would trigger the onAction-->
+      <Button fx:id="chineseButton" layoutX="286.0" layoutY="110.0" mnemonicParsing="false" onAction="#chinesePressed"
+              opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="italianButton" layoutX="548.0" layoutY="110.0" mnemonicParsing="false" onAction="#italianPressed"
+              opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="japaneseButton" layoutX="813.0" layoutY="110.0" mnemonicParsing="false" onAction="#japanesePressed"
+              opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="mexicanButton" layoutX="18.0" layoutY="416.0" mnemonicParsing="false" onAction="#mexicanPressed"
+              opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="frenchButton" layoutX="286.0" layoutY="420.0" mnemonicParsing="false" onAction="#frenchPressed"
+              opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="greekButton" layoutX="549.0" layoutY="420.0" mnemonicParsing="false" onAction="#greekPressed"
+              opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="thaiButton" layoutX="813.0" layoutY="416.0" mnemonicParsing="false" onAction="#thaiPressed"
+              opacity="0.0" prefHeight="250.0" prefWidth="250.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+   <stylesheets>
+      <!-- Cascading Style Sheets (CSS) is used to further customize various elements of javafx -->
+      <URL value="@loginStyles.css" />
+      <URL value="@selectorStyles.css" />
+   </stylesheets>
+</AnchorPane>

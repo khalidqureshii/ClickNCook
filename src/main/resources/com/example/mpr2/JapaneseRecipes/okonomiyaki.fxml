@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Okonomiyaki">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="300.0" text="- 1/2 head of cabbage, thinly sliced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="92.0" layoutY="195.0" prefHeight="31.0" prefWidth="363.0" text="- 2 eggs">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="92.0" layoutY="222.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 cup all-purpose flour">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="480.0" layoutY="263.0" prefHeight="53.0" prefWidth="532.0" text="2. Add the cabbage, bacon, and corn to the batter and mix until combined." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="484.0" layoutY="175.0" prefHeight="88.0" prefWidth="548.0" text="1. In a bowl, combine the eggs, dashi powder, and water. In another bowl, combine the flour and cornstarch. Add the wet ingredients to the dry ingredients and mix until smooth." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToJapanese" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="92.0" layoutY="248.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup cornstarch">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="90.0" layoutY="275.0" prefHeight="31.0" prefWidth="311.0" text="- 1 teaspoon dashi powder">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="480.0" layoutY="308.0" prefHeight="38.0" prefWidth="556.0" text="3. Heat a frying pan over medium heat and add a little bit of oil." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="480.0" layoutY="340.0" prefHeight="63.0" prefWidth="511.0" text="4. Pour the batter into the frying pan and cook for a few minutes per side, or until golden brown." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="92.0" layoutY="304.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup water">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="385.0" prefHeight="63.0" prefWidth="257.0" text="- 4 slices bacon, cooked through and crumbled" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="92.0" layoutY="333.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup corn kernels">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="92.0" layoutY="364.0" prefHeight="31.0" prefWidth="279.0" text="- Mayonnaise, for serving">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="480.0" layoutY="391.0" prefHeight="54.0" prefWidth="556.0" text="5. Serve with mayonnaise and your favorite toppings." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Spanakopita">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="73.0" prefWidth="320.0" text="- 10 oz (about 300g) fresh spinach or frozen spinach, thawed and drained" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="236.0" prefHeight="31.0" prefWidth="279.0" text="- 1 small onion, finely chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="274.0" prefHeight="31.0" prefWidth="300.0" text="- 2-3 green onions, finely chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="179.0" prefHeight="54.0" prefWidth="480.0" text="1. Preheat your oven to 350°F (175°C)." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="230.0" prefHeight="74.0" prefWidth="573.0" text="2. In a pan, sauté the chopped onion and green onions in a bit of olive oil until they soften. Add the spinach and cook for a few minutes. Remove from heat and let it cool." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="306.0" prefHeight="54.0" prefWidth="564.0" text="3. In a mixing bowl, combine the spinach mixture, crumbled feta, chopped dill, eggs, salt, and pepper. Mix well." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="359.0" prefHeight="74.0" prefWidth="486.0" text="4. Brush a baking dish with some melted butter or olive oil. Layer half the phyllo sheets in the dish, brushing each layer with more melted butter or olive oil." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="427.0" prefHeight="91.0" prefWidth="582.0" text="5. Spread the spinach mixture evenly over the phyllo layers. Top with the remaining phyllo sheets, again brushing each layer with butter or oil." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToJapanese" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="305.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 cup crumbled feta cheese">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="336.0" prefHeight="31.0" prefWidth="293.0" text="- 2 tablespoons fresh dill, chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="367.0" prefHeight="31.0" prefWidth="279.0" text="- Salt and pepper to taste">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="400.0" prefHeight="31.0" prefWidth="279.0" text="- Olive oil for sautéing">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="513.0" prefHeight="73.0" prefWidth="582.0" text="6. Score the top layers into squares or diamonds. Bake in the preheated oven for about 30-35 minutes or until the pastry is golden brown." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="431.0" prefHeight="31.0" prefWidth="279.0" text="For the Phyllo Pastry:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="493.0" prefHeight="31.0" prefWidth="300.0" text="- 1/4 cup melted butter or olive oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="462.0" prefHeight="31.0" prefWidth="279.0" text="- 8-10 sheets of phyllo dough">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="588.0" prefHeight="80.0" prefWidth="582.0" text="7. Allow to cool slightly before cutting along the scored lines. Serve your traditional Greek Spanakopita as a delightful appetizer or side dish." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

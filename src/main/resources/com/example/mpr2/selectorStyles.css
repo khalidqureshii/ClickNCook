@@ -1,0 +1,4 @@
+.image-view {
+    -fx-background-radius: 11;
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 9,  0.6, 2, 2);
+}

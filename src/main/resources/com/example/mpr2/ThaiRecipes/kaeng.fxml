@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Green Curry (Kaeng Khiao Wan)">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="105.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="540.0" layoutY="105.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="- 1 can (14 oz) coconut milk" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="206.0" prefHeight="31.0" prefWidth="300.0" text="- 2-3 tablespoons green curry paste">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="96.0" layoutY="467.0" prefHeight="92.0" prefWidth="265.0" text="- 1 cup mixed vegetables (e.g., bell peppers, zucchini, eggplant)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="489.0" layoutY="179.0" prefHeight="54.0" prefWidth="480.0" text="1. Heat coconut milk in a pot and stir in green curry paste. Cook for a few minutes until fragrant." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="216.0" prefHeight="74.0" prefWidth="480.0" text="2. Add the mixed vegetables and tofu. Stir to coat with the curry mixture." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="489.0" layoutY="276.0" prefHeight="54.0" prefWidth="486.0" text="3. Pour in vegetable broth and add kaffir lime leaves. Simmer until vegetables are tender." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="490.0" layoutY="318.0" prefHeight="74.0" prefWidth="486.0" text="4. Season with soy sauce (or fish sauce for a non-vegetarian version) and brown sugar." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="491.0" layoutY="375.0" prefHeight="54.0" prefWidth="486.0" text="5. Serve hot, garnished with Thai basil leaves." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToThai" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="483.0" layoutY="445.0" prefHeight="74.0" prefWidth="486.0" text=" " wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="506.0" prefHeight="66.0" prefWidth="486.0" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="236.0" prefHeight="31.0" prefWidth="279.0" text="- 1 block of tofu, cubed">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="266.0" prefHeight="31.0" prefWidth="279.0" text="- 1 cup vegetable broth">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="295.0" prefHeight="31.0" prefWidth="279.0" text="- 2-3 kaffir lime leaves, torn">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="327.0" prefHeight="66.0" prefWidth="318.0" text="- 1-2 tablespoons soy sauce or fish sauce (for a non-vegetarian version)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="391.0" prefHeight="31.0" prefWidth="279.0" text="- 1 tablespoon brown sugar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="97.0" layoutY="423.0" prefHeight="53.0" prefWidth="279.0" text="- Fresh Thai basil leaves for garnish" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

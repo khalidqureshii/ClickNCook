@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Tarte tatin">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="300.0" text="- Puff pastry">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="206.0" prefHeight="31.0" prefWidth="279.0" text="- Apples">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="237.0" prefHeight="31.0" prefWidth="279.0" text="- Water">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="168.0" prefHeight="84.0" prefWidth="480.0" text="1. Use a 9-inch cake pan as a template to cut a circle from puff pastry. Poke holes in it and set it aside." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="232.0" prefHeight="66.0" prefWidth="480.0" text="2. Peel and quarter the apples, removing cores. Preheat the oven to 375°F (190°C)." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="285.0" prefHeight="84.0" prefWidth="486.0" text="3. In a saucepan, melt sugar in water to create caramel. Add butter and cook until it's light brown. Add apples and coat in caramel." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="354.0" prefHeight="99.0" prefWidth="486.0" text="4. Cook apples in caramel for 15-20 minutes, stirring constantly, until caramel is reduced and apples are coated but not burned." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="440.0" prefHeight="66.0" prefWidth="486.0" text="5. Arrange apples in concentric circles in the cake pan. Pour the remaining caramel over them." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToFrench" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="270.0" prefHeight="31.0" prefWidth="279.0" text="- Sugar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="303.0" prefHeight="31.0" prefWidth="279.0" text="- Butter">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="337.0" prefHeight="31.0" prefWidth="279.0" text="- Vanilla ice cream (for serving)">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="492.0" prefHeight="54.0" prefWidth="486.0" text="6. Place the puff pastry circle on top and tuck it down the sides." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="538.0" prefHeight="53.0" prefWidth="486.0" text="7. Bake for 45-50 minutes until pastry is golden brown and firm. Cool for one hour, then invert onto a plate.10." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="490.0" layoutY="570.0" prefHeight="74.0" prefWidth="486.0" text="8. Slice and serve with vanilla ice cream." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

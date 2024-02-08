@@ -1,0 +1,31 @@
+.dialog-pane {
+    -fx-background-color: #f0f0f0;
+}
+
+/* Style for the header text */
+.dialog-pane .header-panel .header {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-fill: #BCBCBC;
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+}
+
+/* Style for the content text */
+.dialog-pane .content {
+    -fx-font-size: 15px;
+    -fx-fill: #555555;
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+}
+
+/* Style for the buttons */
+.dialog-pane .button-bar .container .button {
+    -fx-background-color: #E4803E;
+    -fx-text-fill: white;
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+}
+
+/* Style for the button hover effect */
+.dialog-pane .button-bar .container .button:hover {
+    -fx-background-color: #EFA97D;
+    -fx-font-family: 'berlin sans fb', Arial, sans-serif;
+}

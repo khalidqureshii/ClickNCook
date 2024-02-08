@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Vegetable Fried Rice">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="161.0" prefHeight="84.0" prefWidth="324.0" text="- 3 cups cooked and cooled white rice (preferably day-old)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="231.0" prefHeight="31.0" prefWidth="279.0" text="- 2 tablespoons vegetable oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="265.0" prefHeight="31.0" prefWidth="279.0" text="- 1 small onion, finely chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="448.0" layoutY="159.0" prefHeight="100.0" prefWidth="630.0" text="1. Cook the rice according to the package instructions and let it cool. It's best to use day-old rice for fried rice as it's less likely to become mushy during cooking. If using freshly cooked rice, spread it out on a baking sheet and refrigerate it for a few hours before using." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="449.0" layoutY="249.0" prefHeight="84.0" prefWidth="624.0" text="2. Heat 1 tablespoon of vegetable oil in a large skillet or wok over medium-high heat. Add the chopped onions and garlic, and stir-fry for about 1-2 minutes until they become fragrant and slightly softened." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="449.0" layoutY="327.0" prefHeight="100.0" prefWidth="591.0" text="3.  Add the mixed vegetables to the skillet. You can use a frozen vegetable medley or chop fresh vegetables like carrots, peas, bell peppers, and corn. Stir-fry the vegetables for about 3-4 minutes until they're tender but still crisp." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="448.0" layoutY="424.0" prefHeight="48.0" prefWidth="578.0" text="4. Push the cooked vegetables to one side of the skillet, creating a space for the eggs." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="451.0" layoutY="473.0" prefHeight="74.0" prefWidth="603.0" text="5. If you want to include eggs in your fried rice, add the remaining 1 tablespoon of vegetable oil to the empty side of the skillet. Pour the beaten eggs into the oil and scramble them until they're fully cooked." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToChinese" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="296.0" prefHeight="31.0" prefWidth="279.0" text="- 2 cloves garlic, minced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="317.0" prefHeight="73.0" prefWidth="341.0" text="- 1 cup mixed vegetables (peas, carrots, corn, bell peppers)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="388.0" prefHeight="31.0" prefWidth="279.0" text="- 2-3 tablespoons soy sauce">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="417.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 teaspoon sesame oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="448.0" prefHeight="31.0" prefWidth="279.0" text="- 2 eggs, beaten (optional)">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="479.0" prefHeight="31.0" prefWidth="279.0" text="- Salt and pepper to taste">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="510.0" prefHeight="54.0" prefWidth="279.0" text="- Chopped green onions for garnish (optional)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="451.0" layoutY="546.0" prefHeight="54.0" prefWidth="630.0" text="6.  Now, add the cooked rice to the skillet, and stir everything together. You can use a spatula or wok spatula to toss and stir the ingredients well." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="451.0" layoutY="600.0" prefHeight="74.0" prefWidth="603.0" text="7. Drizzle 2-3 tablespoons of soy sauce and 1/2 teaspoon of sesame oil over the rice and vegetables. Continue to stir-fry to distribute the sauce evenly. Adjust the amount of soy sauce according to your taste." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="451.0" layoutY="664.0" prefHeight="48.0" prefWidth="542.0" text="8. Taste and add salt as per requirement." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

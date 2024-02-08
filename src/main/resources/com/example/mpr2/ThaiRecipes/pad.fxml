@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutX="-4.0" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Pad Thai">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="589.0" layoutY="96.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToThai" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label fx:id="s" layoutX="133.0" layoutY="107.0" prefHeight="37.0" prefWidth="242.0" text="Ingredients">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="536.0" layoutY="174.0" prefHeight="53.0" prefWidth="474.0" text="1. Cook rice noodles according to package instructions, then drain and set aside." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="536.0" layoutY="227.0" prefHeight="61.0" prefWidth="457.0" text="2. In a wok or large skillet, heat the oil over medium-high heat and sauté garlic briefly." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="537.0" layoutY="276.0" prefHeight="81.0" prefWidth="457.0" text="3. Add tofu and mixed vegetables, stir-frying until they're cooked and slightly caramelized." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="538.0" layoutY="349.0" prefHeight="81.0" prefWidth="464.0" text="4. Push the veggies and tofu to one side of the pan, add tamarind paste, soy sauce, and brown sugar to the other side, and mix." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="539.0" layoutY="430.0" prefHeight="61.0" prefWidth="490.0" text="5. Add the cooked noodles to the pan and toss everything together until well combined." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="69.0" layoutY="163.0" prefHeight="53.0" prefWidth="340.0" text="-8 oz rice noodles" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="208.0" prefHeight="53.0" prefWidth="371.0" text="-1 cup mixed vegetables (e.g., bean sprouts, bell peppers, tofu)" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="261.0" prefHeight="35.0" prefWidth="280.0" text="-2 cloves garlic, minced">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="65.0" layoutY="294.0" prefHeight="48.0" prefWidth="280.0" text="-2 tablespoons oil (such as vegetable or peanut oil)">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="419.0" prefHeight="53.0" prefWidth="310.0" text="-1-2 teaspoons brown sugar" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="381.0" prefHeight="35.0" prefWidth="293.0" text="-2 tablespoons soy sauce" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="338.0" prefHeight="42.0" prefWidth="293.0" text="- 2-3 tablespoons tamarind paste">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="500.0" prefHeight="53.0" prefWidth="310.0" text="-Tamarind paste or lime juice" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="455.0" prefHeight="53.0" prefWidth="310.0" text="-Crushed peanuts and lime wedges for garnish" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="543.0" prefHeight="53.0" prefWidth="310.0" text="-Fresh cilantro leaves (optional)" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="539.0" layoutY="490.0" prefHeight="53.0" prefWidth="490.0" text="6. Serve hot, garnished with crushed peanuts, lime wedges, and cilantro if desired." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

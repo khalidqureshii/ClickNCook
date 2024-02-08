@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Vada Pav">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="37.0" prefWidth="251.0" text="For Vada (Potato Fritter):">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="206.0" prefHeight="31.0" prefWidth="277.0" text="- 4 boiled and mashed potatoes">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="238.0" prefHeight="38.0" prefWidth="260.0" text="- 1 tsp mustard seeds">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="275.0" prefHeight="38.0" prefWidth="251.0" text="- 1 tablespoon cumin seeds">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="168.0" prefHeight="66.0" prefWidth="537.0" text="1. Make chutney: Blend dry coconut, garlic, green chilies, and salt into a fine paste." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="476.0" layoutY="222.0" prefHeight="114.0" prefWidth="589.0" text="2. For vada, heat oil, add mustard seeds, cumin seeds, and let them splutter. Add turmeric, red chili powder, ginger-garlic paste, green chili, cilantro, and sauté. Add mashed potatoes and salt. Mix well and let it cool." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="321.0" prefHeight="134.0" prefWidth="514.0" text="3. Divide the potato mixture into 4 portions and shape them into balls. Flatten them slightly to form patties. Heat oil for frying, dip the potato patties in gram flour batter and fry until golden brown." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="481.0" layoutY="422.0" prefHeight="98.0" prefWidth="520.0" text="4. Slice the pav, toast with butter. Spread chutney inside pav, place the vada, and serve hot." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="310.0" prefHeight="38.0" prefWidth="260.0" text="- 1/2 tsp turmeric">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="94.0" layoutY="337.0" prefHeight="66.0" prefWidth="260.0" text="- 1/2 tsp red chili powder, 1 green chili, chopped" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="390.0" prefHeight="66.0" prefWidth="285.0" text="- 2 tbsp chopped cilantro, 2 tbsp chopped cilantro " wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="451.0" prefHeight="38.0" prefWidth="260.0" text="For Chutney:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="489.0" prefHeight="38.0" prefWidth="260.0" text="- 1/2 cup dry coconut">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="525.0" prefHeight="38.0" prefWidth="260.0" text="- 4-5 garlic cloves">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="560.0" prefHeight="38.0" prefWidth="260.0" text="- 2-3 green chilies">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="598.0" prefHeight="38.0" prefWidth="260.0" text="- Salt to taste">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="628.0" prefHeight="73.0" prefWidth="260.0" text="- 1/2 tsp red chili powder (optional)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToIndian" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+    </children>
+</AnchorPane>

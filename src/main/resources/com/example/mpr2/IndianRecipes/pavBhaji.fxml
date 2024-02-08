@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+<children>
+    <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Pav Bhaji">
+        <font>
+            <Font size="32.0" />
+        </font>
+    </Label>
+    <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Label>
+    <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="- 4 Pav (soft dinner rolls)">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="203.0" prefHeight="62.0" prefWidth="305.0" text="- 4 cups of mixed vegetables (potatoes, cauliflower, peas, carrots)" wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="263.0" prefHeight="38.0" prefWidth="279.0" text="- 1 large onion, finely chopped">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="299.0" prefHeight="62.0" prefWidth="279.0" text="- 1 green bell pepper (capsicum), finely chopped" wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="479.0" layoutY="171.0" prefHeight="74.0" prefWidth="486.0" text="1. Boil the mixed vegetables until they are soft, then mash them coarsely.  In a pan, heat some butter or oil. Add the minced garlic and sauté until it's aromatic." wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="479.0" layoutY="245.0" prefHeight="62.0" prefWidth="486.0" text="2. Add the finely chopped onions and green bell pepper. Sauté until they turn soft and translucent." wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="479.0" layoutY="301.0" prefHeight="74.0" prefWidth="595.0" text="3. Add the chopped tomatoes and cook until they become mushy and the oil starts to separate.  Add the Pav Bhaji masala, red chili powder, turmeric powder, and salt. Mix well and cook for a couple of minutes." wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="478.0" layoutY="378.0" prefHeight="55.0" prefWidth="588.0" text="4. Add the mashed vegetables and mix everything thoroughly. If needed, add some water to achieve your desired consistency." wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="479.0" layoutY="435.0" prefHeight="55.0" prefWidth="486.0" text="5. Simmer the bhaji for about 10-15 minutes, stirring occasionally. Taste and adjust the seasoning as needed." wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="478.0" layoutY="493.0" prefHeight="55.0" prefWidth="595.0" text="6. While the bhaji is simmering, split the pav (dinner rolls) into halves and lightly toast them with butter on a griddle." wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="479.0" layoutY="552.0" prefHeight="55.0" prefWidth="514.0" text="7. Serve the hot and spicy bhaji with the buttered pav. Garnish with chopped coriander leaves and lemon wedges." wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="479.0" layoutY="611.0" prefHeight="55.0" prefWidth="514.0" text="8. Enjoy your homemade Pav Bhaji! It serves approximately 4 people and takes around 30 minutes to prepare." wrapText="true">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToIndian" prefHeight="53.0" prefWidth="104.0" text="Back">
+        <font>
+            <Font size="20.0" />
+        </font></Button>
+    <Label layoutX="95.0" layoutY="353.0" prefHeight="38.0" prefWidth="279.0" text="- 4 cloves of garlic, minced">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="385.0" prefHeight="38.0" prefWidth="279.0" text="- 2 tomatoes, finely chopped">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="423.0" prefHeight="31.0" prefWidth="313.0" text="- 2 tablespoons of Pav Bhaji masala">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="451.0" prefHeight="38.0" prefWidth="279.0" text="- 1 teaspoon of red chili powder">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="487.0" prefHeight="38.0" prefWidth="305.0" text="- 1/2 teaspoon of turmeric powder">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="526.0" prefHeight="31.0" prefWidth="279.0" text="- Salt to taste">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="557.0" prefHeight="31.0" prefWidth="279.0" text="- Butter or oil for cooking">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="588.0" prefHeight="31.0" prefWidth="305.0" text="- Fresh coriander leaves for garnish">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="95.0" layoutY="619.0" prefHeight="31.0" prefWidth="279.0" text="- Lemon wedges for serving">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+</children>
+</AnchorPane>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutX="-52.0" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Pasta">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToItalian" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label fx:id="s" layoutX="128.0" layoutY="107.0" prefHeight="37.0" prefWidth="210.0" text="Ingredients">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="544.0" layoutY="157.0" prefHeight="61.0" prefWidth="474.0" text="1. Cook the pasta in a large pot of salted boiling water until al dente. Drain, but reserve a cup of pasta water." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="544.0" layoutY="222.0" prefHeight="81.0" prefWidth="457.0" text="2. In a large skillet, heat the olive oil over medium heat. Add the minced garlic and red pepper flakes (if using) and sauté for about 1-2 minutes until fragrant." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="544.0" layoutY="311.0" prefHeight="81.0" prefWidth="457.0" text="3. Toss the cooked pasta into the skillet with the garlic and oil. Add a couple of tablespoons of the reserved pasta water to create a silky sauce." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="541.0" layoutY="392.0" prefHeight="81.0" prefWidth="464.0" text="4. Season the pasta with salt and freshly ground black pepper, and continue to toss and cook for a minute or two until well-coated." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="541.0" layoutY="473.0" prefHeight="102.0" prefWidth="490.0" text="5. Serve your traditional Italian pasta immediately, garnished with freshly grated Parmesan cheese and chopped parsley if desired." wrapText="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="69.0" layoutY="163.0" prefHeight="53.0" prefWidth="340.0" text="- 8 oz (about 225g) of pasta (e.g., spaghetti, fettuccine, or your choice)" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="208.0" prefHeight="53.0" prefWidth="253.0" text="- Salt" wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="250.0" prefHeight="35.0" prefWidth="280.0" text="-2-3 cloves of garlic, minced">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="285.0" prefHeight="48.0" prefWidth="280.0" text="-1/4 cup extra-virgin olive oil">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="64.0" layoutY="333.0" prefHeight="42.0" prefWidth="267.0" text=" -Freshly ground black pepper">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="64.0" layoutY="381.0" prefHeight="35.0" prefWidth="253.0" text=" -Red pepper flakes (optional)">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="418.0" prefHeight="42.0" prefWidth="293.0" text="-Freshly grated Parmesan cheese">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="61.0" layoutY="460.0" prefHeight="35.0" prefWidth="293.0" text=" -Chopped fresh parsley (optional)">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

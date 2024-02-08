@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Tacos">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="- 1 cup cooked black beans">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="203.0" prefHeight="38.0" prefWidth="279.0" text="- 1 cup cooked pinto beans">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="241.0" prefHeight="38.0" prefWidth="279.0" text="- 1 onion, finely chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="271.0" prefHeight="38.0" prefWidth="279.0" text="- 1 packet taco seasoning mix">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="171.0" prefHeight="48.0" prefWidth="486.0" text="1. In a skillet, sauté the finely chopped onion and minced garlic until the onion becomes translucent." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="222.0" prefHeight="61.0" prefWidth="486.0" text="2. Add the cooked black beans and pinto beans to the skillet. Mix well." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="268.0" prefHeight="74.0" prefWidth="486.0" text="3. Sprinkle the taco seasoning mix over the bean mixture and stir to coat." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="336.0" prefHeight="74.0" prefWidth="496.0" text="4. Pour in the water and let the mixture simmer for a few minutes until it thickens. Stir occasionally. If using homemade seasoning, add the spices along with water." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="411.0" prefHeight="55.0" prefWidth="486.0" text="5. Warm the tortillas in the oven or microwave according to the package instructions." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="463.0" prefHeight="98.0" prefWidth="486.0" text="6. Assemble your vegetarian tacos: Lay out each tortilla, add a scoop of the bean mixture, followed by shredded lettuce, diced tomatoes, shredded cheese, and any optional toppings you desire." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="479.0" layoutY="563.0" prefHeight="55.0" prefWidth="514.0" text="7. Top each taco with a dollop of sour cream and a drizzle of salsa." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="480.0" layoutY="615.0" prefHeight="74.0" prefWidth="503.0" text="8. Sprinkle fresh cilantro over the top for added flavor and garnish. Serve your delicious homemade vegetarian tacos with lime wedges on the side." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToMexican" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="305.0" prefHeight="38.0" prefWidth="279.0" text="- 2 cloves of garlic, minced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="337.0" prefHeight="38.0" prefWidth="279.0" text="- 1/2 cup water">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="375.0" prefHeight="31.0" prefWidth="279.0" text="- 8 small flour or corn tortillas">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="403.0" prefHeight="38.0" prefWidth="279.0" text="- 1 cup shredded lettuce">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="442.0" prefHeight="31.0" prefWidth="279.0" text="- 1 cup diced tomatoes">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="470.0" prefHeight="31.0" prefWidth="279.0" text="- 1 cup shredded cheddar cheese">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="501.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 cup sour cream">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="533.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup salsa">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="564.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 cup chopped fresh cilantro">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

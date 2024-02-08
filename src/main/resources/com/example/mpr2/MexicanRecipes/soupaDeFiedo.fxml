@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Sopa de Fiedo">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="- 2 tablespoons of vegetable oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="203.0" prefHeight="66.0" prefWidth="315.0" text="- 2 cups of fideo noodles (or any thin pasta like vermicelli)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="263.0" prefHeight="38.0" prefWidth="279.0" text="- 1/2 onion, finely chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="293.0" prefHeight="38.0" prefWidth="279.0" text="- 1 can (14 oz) of diced tomatoes">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="454.0" layoutY="171.0" prefHeight="38.0" prefWidth="503.0" text="1. Heat the vegetable oil in a large pot over medium heat." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="455.0" layoutY="210.0" prefHeight="74.0" prefWidth="618.0" text="2. Add the fideo noodles to the pot. Stir them continuously, toasting them until they turn golden brown. Be careful not to burn them; this should take about 5-7 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="457.0" layoutY="284.0" prefHeight="74.0" prefWidth="592.0" text="3. Once the noodles are toasted, add the chopped onion and minced garlic. Continue to sauté for another 2-3 minutes until the onions are translucent and the garlic is fragrant." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="458.0" layoutY="352.0" prefHeight="73.0" prefWidth="618.0" text="4. Pour in the can of diced tomatoes (with their juice) and stir well to combine with the noodles, onions, and garlic. Cook for another 2 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="458.0" layoutY="417.0" prefHeight="55.0" prefWidth="618.0" text="5. Now, add the vegetable or chicken broth to the pot. Bring the mixture to a boil." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="458.0" layoutY="472.0" prefHeight="74.0" prefWidth="618.0" text="6. Reduce the heat to a simmer and let it cook for about 15-20 minutes, or until the fideo noodles are soft but not mushy. You can adjust the cooking time based on your preferred noodle texture." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="460.0" layoutY="545.0" prefHeight="55.0" prefWidth="618.0" text="7. Taste the soup and season with salt and pepper according to your preference." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="462.0" layoutY="605.0" prefHeight="74.0" prefWidth="618.0" text="8. Serve your Sopa de Fideo hot. Garnish with fresh cilantro leaves and provide lime wedges on the side for those who want to add a squeeze of lime juice." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToMexican" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="327.0" prefHeight="38.0" prefWidth="279.0" text="- 1 clove of garlic, minced">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="359.0" prefHeight="38.0" prefWidth="323.0" text="- 8 cups of vegetable or chicken broth">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="396.0" prefHeight="31.0" prefWidth="279.0" text="- Salt and pepper to taste">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="425.0" prefHeight="66.0" prefWidth="279.0" text="- Fresh cilantro leaves, chopped (for garnish, optional)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="489.0" prefHeight="38.0" prefWidth="315.0" text="- Lime wedges (for serving, optional)">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

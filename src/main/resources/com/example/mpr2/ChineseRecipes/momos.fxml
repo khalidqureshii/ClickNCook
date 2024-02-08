@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Chinese Momos">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="97.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="For the Dough:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="206.0" prefHeight="31.0" prefWidth="279.0" text="- 1 cup all-purpose flour">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="244.0" prefHeight="31.0" prefWidth="279.0" text="- A pinch of salt">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="486.0" layoutY="168.0" prefHeight="84.0" prefWidth="480.0" text="1. Make dough: Mix flour, salt, and enough water to form a non-sticky dough. Rest for 30 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="249.0" prefHeight="84.0" prefWidth="486.0" text="2. Make filling: Sauté garlic, ginger, green chilies, onions. Add veggies, soy sauce, salt, pepper, and cook till dry. Cool and add cilantro." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="336.0" prefHeight="65.0" prefWidth="486.0" text="3. Roll dough into small circles, place filling, and fold into momos." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="386.0" prefHeight="74.0" prefWidth="496.0" text="4. Steam momos for 10-12 mins." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="488.0" layoutY="442.0" prefHeight="74.0" prefWidth="486.0" text="5. Serve with a soy sauce and chili sauce dip." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToChinese" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="275.0" prefHeight="31.0" prefWidth="279.0" text="For the Filling:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="306.0" prefHeight="48.0" prefWidth="341.0" text="- 1 cup finely chopped vegetables (cabbage, carrots, bell peppers)" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="353.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 cup finely chopped onions">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="384.0" prefHeight="31.0" prefWidth="279.0" text="- 1-inch piece of ginger, grated">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="415.0" prefHeight="31.0" prefWidth="279.0" text="- 1-2 green chilies, finely chopped">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="445.0" prefHeight="31.0" prefWidth="279.0" text="- 1 tbsp oil">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="476.0" prefHeight="31.0" prefWidth="279.0" text="- 1/4 tsp black pepper">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="507.0" prefHeight="31.0" prefWidth="279.0" text="- 1/2 tsp salt">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

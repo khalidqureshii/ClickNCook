@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rSPane" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../loginStyles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpr2.recipeSelectorController">
+    <children>
+        <Label fx:id="t" alignment="CENTER" layoutY="8.0" prefHeight="73.0" prefWidth="1080.0" text="Macarons">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="92.0" layoutY="91.0" prefHeight="48.0" prefWidth="285.0" text="Ingredients">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="s" alignment="CENTER" layoutX="536.0" layoutY="91.0" prefHeight="48.0" prefWidth="354.0" text="Instructions">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="168.0" prefHeight="38.0" prefWidth="279.0" text="- 37.5 g aquafaba">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="203.0" prefHeight="38.0" prefWidth="279.0" text="- 55 g icing sugar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="241.0" prefHeight="38.0" prefWidth="279.0" text="- 55 g almond flour">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="271.0" prefHeight="38.0" prefWidth="279.0" text="- 33 g caster sugar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="469.0" layoutY="165.0" prefHeight="48.0" prefWidth="486.0" text="1. In a bowl sift in almond flour and icing sugar and set it aside." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="468.0" layoutY="201.0" prefHeight="87.0" prefWidth="610.0" text="2. In another clean bowl, add in aquafaba and start whipping at medium low speed. Once the aquafaba gets slightly foamy, increase the whipping speed to high and start adding caster sugar in small batches." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="470.0" layoutY="283.0" prefHeight="74.0" prefWidth="565.0" text="3. Once you reach soft peaks, add in a few drops of gel food color of your choice and continue to whip till you reach stiff peaks. This can take 7-8 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="471.0" layoutY="351.0" prefHeight="55.0" prefWidth="565.0" text="4. After reaching stiff peaks, carefully fold in the almond flour and icing sugar that was set aside before." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="473.0" layoutY="395.0" prefHeight="74.0" prefWidth="588.0" text="5. Use the cut and fold method and check the consistency of your batter after every two-three strokes of mixing." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="474.0" layoutY="459.0" prefHeight="74.0" prefWidth="565.0" text="6. Once you reach a consistency where your batter freely falls off the spatula, you can transfer the batter into a piping bag and pipe individual shells on your baking tray lined with silicone mat." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="474.0" layoutY="534.0" prefHeight="74.0" prefWidth="554.0" text="7. After piping, let shells rest for 15 minutes till they form a skin on top. Meanwhile preheat your oven at 140 degree C.Bake for 30-35 minutes." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#backToFrench" prefHeight="53.0" prefWidth="104.0" text="Back">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Label layoutX="95.0" layoutY="305.0" prefHeight="87.0" prefWidth="184.0" text="- as required Nutella to fill the macarons" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="337.0" prefHeight="38.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="375.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="403.0" prefHeight="38.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="442.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="470.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="501.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="533.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="564.0" prefHeight="31.0" prefWidth="279.0">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="475.0" layoutY="598.0" prefHeight="74.0" prefWidth="565.0" text="8. Then let the macarons cool for some time and then fill in the nutella and cover it with another macaron." wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
